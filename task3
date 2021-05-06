@@ -1,0 +1,11 @@
+Задание 3
+Дана строка. Необходимо вывести в консоль перевёрнутый вариант. Например, "Hello" -> "olleH".
+
+let str = 'Do geese see God?';
+let arr = [...str].reverse()
+let result = arr.join("")
+console.log(result) 
+______________________________________________________________________
+const ReverseStr = str => [...str].reverse().join('');
+document.write(ReverseStr("A man, a plan, a canal-Panama"))
+ 
